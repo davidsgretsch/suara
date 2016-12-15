@@ -1,0 +1,42 @@
+p
+	line-height: 2rem
+
+.parallax-container 
+	min-height: 380px
+	line-height: 0
+	height: auto
+	color: rgba(255,255,255,.9)
+	.section 
+		width: 100%
+
+.icon-block 
+	padding: 0 15px
+	.material-icons
+		font-size: inherit
+
+.slider
+	margin-bottom: -40px
+	.indicators
+		bottom: 60px
+		.indicator-item
+			background-color: $color-item
+			z-index: 2
+		.indicator-item.active
+			background-color: $color-item-active
+
+.text-uppercase
+	text-transform: uppercase
+
+.text-title
+	@extend .text-uppercase
+	color: $color-item
+
+.color-list
+	color: $color-item
+
+p
+	a
+		text-decoration: underline
+		font-style: italic
+		&:hover
+			color: $color-item-active

@@ -1,0 +1,77 @@
+nav {
+  height: 90px;
+  line-height: 90px; }
+
+nav ul a {
+  color: #444;
+  line-height: 90px; }
+  nav ul a:hover {
+    background-color: #f6a215;
+    color: #ffffff; }
+
+ul.side-nav li a:hover {
+  background-color: #f6a215;
+  color: #ffffff; }
+
+.button-collapse {
+  color: #da6016;
+  padding-top: 10px; }
+  .button-collapse:hover {
+    color: #f6a215; }
+
+p {
+  line-height: 2rem; }
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9); }
+  .parallax-container .section {
+    width: 100%; }
+
+.icon-block {
+  padding: 0 15px; }
+  .icon-block .material-icons {
+    font-size: inherit; }
+
+.slider {
+  margin-bottom: -40px; }
+  .slider .indicators {
+    bottom: 60px; }
+    .slider .indicators .indicator-item {
+      background-color: #009bdb;
+      z-index: 2; }
+    .slider .indicators .indicator-item.active {
+      background-color: #4fc3f7; }
+
+.text-uppercase, .text-title {
+  text-transform: uppercase; }
+
+.text-title {
+  color: #009bdb; }
+
+.color-list {
+  color: #009bdb; }
+
+p a {
+  text-decoration: underline;
+  font-style: italic; }
+  p a:hover {
+    color: #4fc3f7; }
+
+footer.page-footer {
+  margin: 0; }
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%; }
+
+  #index-banner .section {
+    top: 10%; } }
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0; } }
+
+/*# sourceMappingURL=main.css.map */
