@@ -60,6 +60,21 @@ p a {
   p a:hover {
     color: #4fc3f7; }
 
+.card .card-action {
+  background-color: #009bdb; }
+
+img.destinaty-img {
+  width: 100%; }
+
+.brasil-page, .caribe-page {
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .brasil-page .divider, .caribe-page .divider {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .brasil-page h5, .caribe-page h5 {
+    color: #da6016; }
+
 footer.page-footer {
   margin: 0; }
 
@@ -72,6 +87,9 @@ footer.page-footer {
     top: 10%; } }
 @media only screen and (max-width: 600px) {
   #index-banner .section {
-    top: 0; } }
+    top: 0; }
+
+  .brasil-page .destiny-container, .caribe-page .destiny-container {
+    margin-bottom: 60px; } }
 
 /*# sourceMappingURL=main.css.map */

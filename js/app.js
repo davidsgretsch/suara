@@ -27,7 +27,26 @@ var app = angular.module('suaraApp', ['ui.router'])
 		url: "/formas-de-pago",
 		templateUrl: "views/formas-de-pago.html"
 	})
-
+	.state('america', {
+		url: "/destinos/america",
+		templateUrl: "views/destinos/america.html",
+		controller: "americaController"
+	})
+	.state('brasil', {
+		url: "/destinos/brasil",
+		templateUrl: "views/destinos/brasil.html",
+		controller: "brasilController"
+	})
+	.state('caribe', {
+		url: "/destinos/caribe",
+		templateUrl: "views/destinos/caribe.html",
+		controller: "caribeController"
+	})
+	.state('europa', {
+		url: "/destinos/europa",
+		templateUrl: "views/destinos/europa.html",
+		controller: "europaController"
+	})
 
 	$urlRouterProvider.otherwise('/');
 });
