@@ -19,6 +19,16 @@ ul.side-nav li a:hover {
   .button-collapse:hover {
     color: #f6a215; }
 
+.btn-primary {
+  background: #009bdb; }
+  .btn-primary:hover {
+    background: #4fc3f7; }
+
+.btn-secondary {
+  background: #da6016; }
+  .btn-secondary:hover {
+    background: #f6a215; }
+
 p {
   line-height: 2rem; }
 
@@ -83,6 +93,12 @@ img.destinaty-img {
 
 footer.page-footer {
   margin: 0; }
+
+.footer-contact p a {
+  text-decoration: none;
+  font-style: normal; }
+  .footer-contact p a:hover {
+    color: #4fc3f7; }
 
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
