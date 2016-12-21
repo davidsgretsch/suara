@@ -47,6 +47,11 @@ var app = angular.module('suaraApp', ['ui.router'])
 		templateUrl: "views/destinos/europa.html",
 		controller: "europaController"
 	})
+	.state('peru', {
+		url: "/destinos/peru",
+		templateUrl: "views/destinos/peru.html",
+		controller: "peruController"
+	})
 
 	$urlRouterProvider.otherwise('/');
 });

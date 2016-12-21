@@ -71,14 +71,14 @@ p a {
 img.destinaty-img {
   width: 100%; }
 
-.page, .nosotros-page, .brasil-page, .caribe-page, .europa-page {
+.page, .nosotros-page, .brasil-page, .caribe-page, .europa-page, .peru-page {
   padding-top: 30px;
   padding-bottom: 50px; }
 
-.brasil-page .divider, .caribe-page .divider, .europa-page .divider {
+.brasil-page .divider, .caribe-page .divider, .europa-page .divider, .peru-page .divider {
   margin-top: 30px;
   margin-bottom: 30px; }
-.brasil-page h5, .caribe-page h5, .europa-page h5 {
+.brasil-page h5, .caribe-page h5, .europa-page h5, .peru-page h5 {
   color: #da6016; }
 
 footer.page-footer {
@@ -95,7 +95,7 @@ footer.page-footer {
   #index-banner .section {
     top: 0; }
 
-  .brasil-page .destiny-container, .caribe-page .destiny-container, .europa-page .destiny-container {
+  .brasil-page .destiny-container, .caribe-page .destiny-container, .europa-page .destiny-container, .peru-page .destiny-container {
     margin-bottom: 60px; } }
 
 /*# sourceMappingURL=main.css.map */
