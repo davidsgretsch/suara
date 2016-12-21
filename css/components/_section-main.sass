@@ -7,7 +7,7 @@ p
 	height: auto
 	color: rgba(255,255,255,.9)
 	.section 
-		width: 100%
+		width: $full
 
 .icon-block 
 	padding: 0 15px
@@ -15,9 +15,14 @@ p
 		font-size: inherit
 
 .slider
+	min-height: $slider-height
 	margin-bottom: -40px
+	.slides
+		min-height: $slider-height
+		li
+			min-height: $slider-height
 	.indicators
-		bottom: 60px
+		bottom: 4%
 		.indicator-item
 			background-color: $color-item
 			z-index: 2
@@ -47,16 +52,22 @@ p
 
 img
 	&.destinaty-img
-		width: 100%
+		width: $full
+
+.page
+	padding-top: 30px
+	padding-bottom: 50px
+
+.nosotros-page
+	@extend .page
 
 .brasil-page
-	padding-top: 30px
-	padding-bottom: 40px
+	@extend .page
 	.divider
 		margin-top: 30px
 		margin-bottom: 30px
 	h5
 		color: $color-button-collapse
 
-.caribe-page
+.caribe-page, .europa-page
 	@extend .brasil-page

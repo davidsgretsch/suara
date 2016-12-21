@@ -36,9 +36,14 @@ p {
     font-size: inherit; }
 
 .slider {
+  min-height: 650px;
   margin-bottom: -40px; }
+  .slider .slides {
+    min-height: 650px; }
+    .slider .slides li {
+      min-height: 650px; }
   .slider .indicators {
-    bottom: 60px; }
+    bottom: 4%; }
     .slider .indicators .indicator-item {
       background-color: #009bdb;
       z-index: 2; }
@@ -66,14 +71,15 @@ p a {
 img.destinaty-img {
   width: 100%; }
 
-.brasil-page, .caribe-page {
+.page, .nosotros-page, .brasil-page, .caribe-page, .europa-page {
   padding-top: 30px;
-  padding-bottom: 40px; }
-  .brasil-page .divider, .caribe-page .divider {
-    margin-top: 30px;
-    margin-bottom: 30px; }
-  .brasil-page h5, .caribe-page h5 {
-    color: #da6016; }
+  padding-bottom: 50px; }
+
+.brasil-page .divider, .caribe-page .divider, .europa-page .divider {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+.brasil-page h5, .caribe-page h5, .europa-page h5 {
+  color: #da6016; }
 
 footer.page-footer {
   margin: 0; }
@@ -89,7 +95,7 @@ footer.page-footer {
   #index-banner .section {
     top: 0; }
 
-  .brasil-page .destiny-container, .caribe-page .destiny-container {
+  .brasil-page .destiny-container, .caribe-page .destiny-container, .europa-page .destiny-container {
     margin-bottom: 60px; } }
 
 /*# sourceMappingURL=main.css.map */
