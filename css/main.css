@@ -6,8 +6,8 @@ nav ul a {
   color: #444;
   line-height: 90px; }
   nav ul a:hover {
-    background-color: #f6a215;
-    color: #ffffff; }
+    background-color: transparent;
+    color: #f6a215; }
 
 ul.side-nav li a:hover {
   background-color: #f6a215;
@@ -46,14 +46,14 @@ p {
     font-size: inherit; }
 
 .slider {
-  min-height: 650px;
+  height: calc(100vh - 90px);
   margin-bottom: -40px; }
   .slider .slides {
-    min-height: 650px; }
+    height: calc(100vh - 90px); }
     .slider .slides li {
-      min-height: 650px; }
+      height: calc(100vh - 90px); }
   .slider .indicators {
-    bottom: 4%; }
+    bottom: -8%; }
     .slider .indicators .indicator-item {
       background-color: #009bdb;
       z-index: 2; }

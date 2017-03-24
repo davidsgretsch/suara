@@ -5,106 +5,15 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col s12 m5">
+		<div ng-repeat="city in cities" class="col s12 m4">
 			<div class="card hoverable">
 	            <div class="card-image">
-	              <img src="images/destinos1.jpg">
+	              <img src="{{city.img}}">
 	            </div>
 	            <div class="card-action center-align">
-	              <a ui-sref="america" class="white-text destiny">Maimi</a>
+	              <a ui-sref="{{city.country}}" class="white-text destiny">{{city.name}}</a>
 	            </div>
         	</div>
       	</div>
-		<div class="col s12 m7">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos4.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a ui-sref="brasil" class="white-text destiny">BRASIL</a>
-	            </div>
-        	</div>
-      	</div>
-		<div class="col s12 m6">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos5.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a ui-sref="caribe" class="white-text destiny">CARIBE</a>
-	            </div>
-        	</div>
-      	</div>
-		<div class="col s12 m6">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos8.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a ui-sref="europa" class="white-text destiny">EUROPA</a>
-	            </div>
-        	</div>
-      	</div>
-		<div class="col s12 m7">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos11.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a href="#" class="white-text destiny">MÉXICO</a>
-	            </div>
-        	</div>
-      	</div>
-		<div class="col s12 m5">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos12.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a ui-sref="peru" class="white-text destiny">PERÚ</a>
-	            </div>
-        	</div>
-      	</div>
-      	<!--
-		<div class="col s12 m4 l3">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos1.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a href="#">PORTUGAL</a>
-	            </div>
-        	</div>
-      	</div>
-		<div class="col s12 m4 l3">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos1.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a href="#">REP. DOMINICANA</a>
-	            </div>
-        	</div>
-      	</div>
-		<div class="col s12 m4 l3">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos1.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a href="#">VENEZUELA</a>
-	            </div>
-        	</div>
-      	</div>
-		<div class="col s12 m4 l3">
-			<div class="card hoverable">
-	            <div class="card-image">
-	              <img src="images/destinos1.jpg">
-	            </div>
-	            <div class="card-action center-align">
-	              <a href="#">URUGUAY</a>
-	            </div>
-        	</div>
-      	</div> -->
 	</div>
 </div>
