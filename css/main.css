@@ -46,14 +46,14 @@ p {
     font-size: inherit; }
 
 .slider {
-  height: calc(100vh - 90px);
-  margin-bottom: -40px; }
+  height: 600px !important;
+  margin-bottom: 0px; }
   .slider .slides {
-    height: calc(100vh - 90px); }
+    height: 600px !important; }
     .slider .slides li {
-      height: calc(100vh - 90px); }
+      height: 600px !important; }
   .slider .indicators {
-    bottom: -8%; }
+    bottom: 4%; }
     .slider .indicators .indicator-item {
       background-color: #009bdb;
       z-index: 2; }
@@ -70,7 +70,7 @@ p {
   color: #009bdb; }
 
 p a {
-  text-decoration: underline;
+  text-decoration: none;
   font-style: italic; }
   p a:hover {
     color: #4fc3f7; }
@@ -81,15 +81,47 @@ p a {
 img.destinaty-img {
   width: 100%; }
 
-.page, .nosotros-page, .brasil-page, .caribe-page, .europa-page, .peru-page {
+.page, .nosotros-page, .payment-page, .brasil-page, .caribe-page, .europa-page, .peru-page {
   padding-top: 30px;
   padding-bottom: 50px; }
+
+.text-container {
+  width: 100%;
+  background-color: #009bdb;
+  display: table;
+  padding: 40px;
+  margin-bottom: 40px; }
+  .text-container h5 {
+    color: #ffffff;
+    letter-spacing: 4px;
+    line-height: 38px; }
 
 .brasil-page .divider, .caribe-page .divider, .europa-page .divider, .peru-page .divider {
   margin-top: 30px;
   margin-bottom: 30px; }
 .brasil-page h5, .caribe-page h5, .europa-page h5, .peru-page h5 {
   color: #da6016; }
+
+.brick, .firts-brick {
+  background-size: cover;
+  height: 600px; }
+  .brick .section, .firts-brick .section {
+    width: 100%; }
+    .brick .section .description, .firts-brick .section .description {
+      background-color: darkorange;
+      opacity: 0.9;
+      padding: 50px;
+      border-radius: 4px; }
+
+.firts-brick {
+  background-image: url("../images/brick01_normal_2x.jpg"); }
+
+.banner {
+  background-size: cover;
+  background-position: center center;
+  height: 435px; }
+  .banner.banner-nosotros-page {
+    background-image: url("../images/about-us-normal_2x.jpg"); }
 
 footer.page-footer {
   margin: 0; }
@@ -112,6 +144,13 @@ footer.page-footer {
     top: 0; }
 
   .brasil-page .destiny-container, .caribe-page .destiny-container, .europa-page .destiny-container, .peru-page .destiny-container {
-    margin-bottom: 60px; } }
+    margin-bottom: 60px; }
+
+  .text-container {
+    padding: 20px;
+    margin-bottom: 20px; }
+    .text-container h5 {
+      letter-spacing: 0px;
+      line-height: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
