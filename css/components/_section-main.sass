@@ -26,14 +26,14 @@ p
 		font-size: inherit
 
 .slider
-	height: calc(100vh - 90px)
+	height: 600px !important
 	margin-bottom: -40px
 	.slides
-		height: calc(100vh - 90px)
+		height: 600px !important
 		li
-			height: calc(100vh - 90px)
+			height: 600px !important
 	.indicators
-		bottom: -8%
+		bottom: 4%
 		.indicator-item
 			background-color: $color-item
 			z-index: 2
@@ -52,7 +52,7 @@ p
 
 p
 	a
-		text-decoration: underline
+		text-decoration: none
 		font-style: italic
 		&:hover
 			color: $color-item-active
@@ -69,8 +69,19 @@ img
 	padding-top: 30px
 	padding-bottom: 50px
 
-.nosotros-page
+.nosotros-page, .payment-page
 	@extend .page
+
+.text-container
+	width: $full
+	background-color: $color-item
+	display: table
+	padding: 40px
+	margin-bottom: 40px
+	h5
+		color: $white
+		letter-spacing: 4px
+		line-height: 38px
 
 .brasil-page
 	@extend .page
