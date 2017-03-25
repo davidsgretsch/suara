@@ -47,7 +47,7 @@ p {
 
 .slider {
   height: 600px !important;
-  margin-bottom: -40px; }
+  margin-bottom: 0px; }
   .slider .slides {
     height: 600px !important; }
     .slider .slides li {
@@ -101,6 +101,20 @@ img.destinaty-img {
   margin-bottom: 30px; }
 .brasil-page h5, .caribe-page h5, .europa-page h5, .peru-page h5 {
   color: #da6016; }
+
+.brick, .firts-brick {
+  background-size: cover;
+  height: 600px; }
+  .brick .section, .firts-brick .section {
+    width: 100%; }
+    .brick .section .description, .firts-brick .section .description {
+      background-color: darkorange;
+      opacity: 0.9;
+      padding: 50px;
+      border-radius: 4px; }
+
+.firts-brick {
+  background-image: url("../images/brick01_normal_2x.jpg"); }
 
 footer.page-footer {
   margin: 0; }

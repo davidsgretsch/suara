@@ -27,7 +27,7 @@ p
 
 .slider
 	height: 600px !important
-	margin-bottom: -40px
+	margin-bottom: 0px
 	.slides
 		height: 600px !important
 		li
@@ -93,3 +93,18 @@ img
 
 .caribe-page, .europa-page, .peru-page
 	@extend .brasil-page
+
+.brick
+	background-size: cover
+	height: 600px
+	.section
+		width: $full
+		.description
+			background-color: darkorange
+			opacity: 0.9
+			padding: 50px
+			border-radius: 4px
+
+.firts-brick
+	@extend .brick
+	background-image: url('../images/brick01_normal_2x.jpg')
