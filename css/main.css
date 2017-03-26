@@ -81,7 +81,7 @@ p a {
 img.destinaty-img {
   width: 100%; }
 
-.page, .nosotros-page, .payment-page, .brasil-page, .caribe-page, .europa-page, .peru-page {
+.page, .about-us-page, .payment-page, .destiny-page, .just-married-page, .brasil-page, .caribe-page, .europa-page, .peru-page {
   padding-top: 30px;
   padding-bottom: 50px; }
 
@@ -120,8 +120,12 @@ img.destinaty-img {
   background-size: cover;
   background-position: center center;
   height: 435px; }
-  .banner.banner-nosotros-page {
+  .banner.banner-about-us {
     background-image: url("../images/about-us-normal_2x.jpg"); }
+  .banner.banner-destiny {
+    background-image: url("../images/destiny-normal_2x.jpg"); }
+  .banner.banner-just-married {
+    background-image: url("../images/just-married-normal_2x.jpg"); }
 
 footer.page-footer {
   margin: 0; }
@@ -151,6 +155,14 @@ footer.page-footer {
     margin-bottom: 20px; }
     .text-container h5 {
       letter-spacing: 0px;
-      line-height: 30px; } }
+      line-height: 30px; }
+
+  .banner {
+    background-position: center center;
+    height: 440px; }
+    .banner.banner-destiny {
+      background-image: url("../images/destiny-small_2x.jpg"); }
+    .banner.banner-just-married {
+      background-image: url("../images/just-married-small_2x.jpg"); } }
 
 /*# sourceMappingURL=main.css.map */
